@@ -110,3 +110,10 @@ a {
     color: #4F3674;
     text-decoration: none;
 }
+
+h1, h2, h3, h4 {
+    background-color: #3C275A;
+    color: white;
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
