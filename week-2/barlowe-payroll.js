@@ -6,27 +6,27 @@
 const ludwigFirstName = "Ludwig"
 const bachFirstName = "Johann"
 const wolfgangFirstName = "Wolfgang"
-//Assigned variables to first names, used const as name shouldn't change
+//Assigned variables to first names
 
 const ludwigLastName = "Beethoven"
 const bachLastName = "Bach"
 const wolfgangLastName = "Mozart"
-//Assigned variables to last names, used const as name shouldn't change
+//Assigned variables to last names
 
-let ludwigAddress = "505 main street"
-let bachAddress = "512 main street"
-let wolfgangAddress = "600 main street"
-//Assigned variables to addresses, used let instead of const since address could change
+const ludwigAddress = "505 main street"
+const bachAddress = "512 main street"
+const wolfgangAddress = "600 main street"
+//Assigned variables to addresses
 
 const bachDate = new Date().toLocaleDateString('en-US');
 const ludwigDate = new Date().toLocaleDateString('en-US');
 const wolfgangDate = new Date().toLocaleDateString('en-US');
 //Assigned variables to dates
 
-let ludwigPayRate = 18.9.toFixed(1)
-let bachPayRate = 25.5.toFixed(1)
-let wolfgangPayRate = 50.1.toFixed(1)
-//Assigned variables to pay rates, used let as pay rate could change
+const ludwigPayRate = 18.9.toFixed(1)
+const bachPayRate = 25.5.toFixed(1)
+const wolfgangPayRate = 50.1.toFixed(1)
+//Assigned variables to pay rates
 
 
 document.getElementById("ludwig-firstName").innerHTML = ludwigFirstName;
