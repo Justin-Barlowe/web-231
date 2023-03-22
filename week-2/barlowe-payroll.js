@@ -1,3 +1,8 @@
+// ; Title: barlowe-payroll.js
+// ; Author: Justin Barlowe
+// ; Date: 22 Mar 2023
+// ; Description: JavaScript page for exercise 2.2
+
 const ludwigFirstName = "Ludwig"
 const bachFirstName = "Johann"
 const wolfgangFirstName = "Wolfgang"
