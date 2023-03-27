@@ -1,0 +1,40 @@
+/* 
+; Title: barlowe-favorites.css
+; Author: Justin Barlowe
+; Date: 27 Mar 2023
+; Description: CSS file for exercise 3.2 */
+
+
+h1 {
+    border-color: none;
+    background-color: none;
+    background: none;
+    color: black;
+    border: none;
+    text-align: center;
+}
+/* Changed heading style for title to match example */
+
+h2 {
+    background-color: none;
+    background: none;
+    border: none;
+    color: #3C275A;
+    padding: 5px;
+}
+/* Changed heading card title to match example */
+
+body {
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+.favorites-links {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+/* Changed button style to match example */
