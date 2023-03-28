@@ -67,6 +67,7 @@ h1, h2, h3, h4 {
 .btn-primary {
     background-color: #4F3674;
     color: #fff;
+    
 }
 
 .btn-primary:hover {
@@ -79,7 +80,7 @@ h1, h2, h3, h4 {
 }
 
 .form {
-    display: inline-grid;
+    display: inline-block;
     grid-template-columns: auto;
 }
 

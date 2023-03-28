@@ -1,0 +1,57 @@
+<!-- 
+    
+; Title: barlowe-temp-conversion.html
+; Author: Justin Barlowe
+; Date: 27 Mar 2023
+; Description: HTML page for exercise 3.3
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 3.3</title>
+    <link href="../barlowe-global.css" rel="stylesheet">
+    <link href="barlowe-temp-conversion.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;&display=swap" rel="stylesheet">
+</head>
+<!-- App head placed above this line with links to stylesheets and fonts-->
+<body>
+    <div id="container">
+        <h1 class="app-header" id="favorites-header">Welcome to the Temperature Conversion App!</h1>
+        <div class="card">
+            <div class="card-content">
+                <div class="card-title"><h2>Fahrenheit to Celsius Converter</h2>
+                </div>
+                    <div class="form">Fahrenheit Value: <input class="input" id="farenheight" value="">
+                    </div>
+                    <br>
+                    <div class="btn">
+                        <button class="btn-primary" id="temp-calc-button">Convert Temperature</button>
+                    </div>    
+            </div>
+        </div>
+    </div>
+<!-- First card created with form for input and button with ID to be access by Javascript -->
+<br>
+    <div class="card">
+        <div class="card-content">
+            <div class="card-title"><h2>Conversion Results</h2></div>
+                <div class="conversion-results">
+                    <span id="temp-results"></span>
+                </div>
+            </div>
+    </div>
+<!-- Second card created with the conversion results and empty span for JavaScript to output calculation -->
+<br>
+    <div class="return-home">
+        <a href="https://justin-barlowe.github.io/web-231/" class="return-home">Return Home</a>
+    </div>
+    <!-- Back to home link on bottom, github URL used due to github improperly routing request to index.html -->
+<script src="barlowe-temp-conversion-js"></script> 
+<!-- JS file linked -->
+</body>
+
+</html>

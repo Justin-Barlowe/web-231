@@ -1,0 +1,25 @@
+// ; Title: barlowe-temp-conversion.js
+// ; Author: Justin Barlowe
+// ; Date: 27 Mar 2023
+// ; Description: JavaScript page for exercise 3.3
+
+
+const calcButton = document.getElementById("temp-calc-button")
+const celsiusOutput = document.getElementById("temp-results")
+
+//Creating variables by accessing HTML input.
+
+function calcCelsius() {
+    const farenheight = document.getElementById("farenheight").value
+    const celsius = (farenheight - 32) / 1.8
+
+    celsiusOutput.innerText = celsius.toFixed(2)
+
+}
+
+//Function created to calculate celsius from HTML values that were input.
+//Output of calculation assigned to celsius output and 2 fixed decimal positions 
+
+calcButton.addEventListener("click", calcCelsius)
+
+//Event listener added to perform function when button is clicked. 
