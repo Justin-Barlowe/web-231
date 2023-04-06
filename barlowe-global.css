@@ -50,7 +50,6 @@ h1, h2, h3, h4 {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
     padding: 15px 32px;
     color: #000;
 }
@@ -73,6 +72,7 @@ h1, h2, h3, h4 {
 .btn-primary:hover {
     background-color: #D6A800;
     color: #4F3674;
+    cursor: pointer;
 }
 
 .full-width {
