@@ -1,0 +1,56 @@
+/*
+; Title: barlowe-number-game.css
+; Author: Justin Barlowe
+; Date: 6 Apr 2023
+; Description: CSS page for exercise 4.2 */
+
+h1 {
+    /* border-color: none; */
+    background-color: #fff;
+    color: black;
+    border: none;
+    text-align: center;
+}
+/* Changed heading style for title to match example */
+
+h2 {
+    background-color: #fff;
+    border: none;
+    color: #3C275A;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+/* Changed heading card title to match example */
+
+body {
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+.btn-primary {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+/* Some button formatting to make it match example better */
+
+
+#temp-results {
+    font-size: 24px;
+}
+
+/* Increased font size to better match example */
+
+.return-home {
+    padding: 5px;
+}
