@@ -1,3 +1,8 @@
+/*
+; Title: barlowe-sequence-game.css
+; Author: Justin Barlowe
+; Date: 19 Apr 2023
+; Description: CSS page for exercise 6.2 */
 
 
 body {
@@ -18,6 +23,19 @@ h2 {
     background: none;
     color:#3C275A;
     border: none;
-    padding: none;
+    padding:0px;
 }
 
+.btn-primary {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
