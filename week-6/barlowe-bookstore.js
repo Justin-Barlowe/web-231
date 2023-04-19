@@ -51,9 +51,8 @@ function display() {
       output += "</table>";
       break;
     default: 
-      alert("Invalid selection! Please try again."); // Created default alert pop-up for invalid selection. 
+      alert("Invalid selection! Please try again.");
       break;
-
   }
   document.getElementById("bookstore-results").innerHTML = output; //Output from function displayed in HTML.
 }
