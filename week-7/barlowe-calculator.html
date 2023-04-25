@@ -1,0 +1,84 @@
+<!-- 
+; Title: barlowe-calculator.html
+; Author: Justin Barlowe
+; Date: 24 April 2023
+; Description: HTML page for exercise 6.7
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 7.2</title>
+    <link href="../barlowe-global.css" rel="stylesheet">
+    <link href="barlowe-calculator.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;&display=swap" rel="stylesheet">
+</head>
+<!-- App head placed above this line with links to stylesheets and fonts-->
+<body>
+    <div id="container">
+        <h1 class="app-header" >Welcome to the Calculator App</h1>
+        <div class="card">
+            <div class="card-content">
+                <div class="card-title"><h2>Multiply Form</h2>
+                </div>
+                <div class="form"><input class="input" id="multi-input1" value="">
+                    <br>
+                <div class="form"><input class="input" id="multi-input2" value="">
+                </div>
+                    <br>
+                    <div class="btn">
+                        <button class="btn-primary" id="multi-submit">Display Sequence</button>
+                    </div>    
+            </div>
+        </div>
+    </div>
+<!-- First card created with drop down for input and button with ID to be access by Javascript -->
+<br>
+    <div class="card" id="card-results">
+        <div class="card-content">
+            <div class="card-title"><h2>Results</h2></div>
+                <div class="results">
+                    <span id="multi-results"></span>
+                    <br><br><br>
+                </div>
+            </div>
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <div class="card-title"><h2>Divide Form</h2>
+            </div>
+            <div class="form"><input class="input" id="divide-input1" value="">
+                <br>
+            <div class="form"><input class="input" id="divide-input2" value="">
+            </div>
+                <br>
+                <div class="btn">
+                    <button class="btn-primary" id="divide-submit">Display Sequence</button>
+                </div>    
+        </div>
+    </div>
+</div>
+<!-- First card created with drop down for input and button with ID to be access by Javascript -->
+<br>
+<div class="card" id="card-results">
+    <div class="card-content">
+        <div class="card-title"><h2>Results</h2></div>
+            <div class="results">
+                <span id="divide-results"></span>
+                <br><br><br>
+            </div>
+        </div>
+</div>
+<!-- Second card created with the sequence results and empty span for JavaScript to output calculation -->
+<br>
+    <div class="return-home">
+        <a href="https://justin-barlowe.github.io/web-231/" class="return-home">Return Home</a>
+    </div>
+    <!-- Back to home link on bottom, github URL used due to github improperly routing request to index.html -->
+<script src="barlowe-calculator.js"></script> 
+<!-- JS file linked -->
+</body>
+
+</html>
